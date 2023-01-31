@@ -9,8 +9,9 @@ import Skills from '../components/Skills'
 
 export default function Home({ posts }) {
   return (
-    <div className='bg-white  z-0'>
-      <Header />
+    <div className='bg-white'>
+
+      {/* <Header /> */}
 
       <section id='hero' className=''>
         <Hero />

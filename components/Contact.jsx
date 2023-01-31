@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 function Contact() {
     return (
-        <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1.5 }} className='min-h-screen bg-black overflow-scroll-y flex flex-col relative text-center md:text-left xl:flex-row max-w-[2000] xl:px-10 justify-center xl:space-y-0 mx-auto items-center'>
+        <div className='min-h-screen bg-black overflow-scroll-y flex flex-col relative text-center md:text-left xl:flex-row max-w-[2000] xl:px-10 justify-center xl:space-y-0 mx-auto items-center'>
             <h3 className='absolute top-24 uppercase tracking-[20px] text-white text-2xl'>Contact</h3>
             <div className='flex flex-col space-y-10'>
                 <h4 className='text-4xl font-semibold text-center text-white'>Let's work together.</h4>
@@ -17,7 +17,7 @@ function Contact() {
                 </form>
 
             </div>
-        </motion.div>
+        </div>
     )
 }
 
