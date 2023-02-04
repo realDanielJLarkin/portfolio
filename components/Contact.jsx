@@ -8,11 +8,11 @@ function Contact() {
                 <h4 className='text-4xl font-semibold text-center text-white'>Let's work together.</h4>
                 <form className='flex flex-col space-y-2 w-fit mx-auto' action="">
                     <div className='flex space-x-2'>
-                        <input className='customContactInput focus:border-white text-white' type="text" placeholder='Name' />
-                        <input className='customContactInput focus:border-white text-white' type="email" placeholder='Email' />
+                        <input className='customContactInput px-1 py-4 md:px-6 focus:border-white text-white' type="text" placeholder='Name' />
+                        <input className='customContactInput px-1 py-4 md:px-6 focus:border-white text-white' type="email" placeholder='Email' />
                     </div>
-                    <input className='customContactInput focus:border-white text-white' type="text" placeholder='Subject' />
-                    <textarea className='customContactInput focus:border-white text-white' placeholder='Message' />
+                    <input className='customContactInput px-1 py-4 md:px-6 focus:border-white text-white' type="text" placeholder='Subject' />
+                    <textarea className='customContactInput px-1 py-4 md:px-6 focus:border-white text-white' placeholder='Message' />
                     <button className='btn btn-outline text-white hover:bg-white hover:text-black font-bold'>Submit</button>
                 </form>
 

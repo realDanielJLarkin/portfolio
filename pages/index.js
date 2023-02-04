@@ -7,9 +7,11 @@ import Projects from '../components/Projects'
 import Skills from '../components/Skills'
 
 
-export default function Home({ posts }) {
+export default function Home({ posts, projects }) {
+  const test = process.env.TEST
+  console.log(test)
   return (
-    <div className='bg-white'>
+    <div className='bg-white overflow-auto'>
 
       {/* <Header /> */}
 
@@ -26,7 +28,7 @@ export default function Home({ posts }) {
       </section>
 
       <section id='projects' className=' mb-96'>
-        <Projects projects={posts} />
+        <Projects projects={posts} posts={projects} />
       </section>
 
       <section id='contact'>
@@ -45,12 +47,16 @@ export default function Home({ posts }) {
 //     body: JSON.stringify({
 //       query: `
 //       query AllProjects {
-//         projects {
+//         posts {
 //           nodes {
 //             content
 //             title
 //             slug
 //             excerpt
+//             tags {
+//               nodes {
+//                 name
+//               }
 //             featuredImage {
 //               node {
 //                 sourceUrl
@@ -65,9 +71,12 @@ export default function Home({ posts }) {
 
 //   const json = await res.json()
 
+
+//   console.log(json)
+
 //   return {
 //     props: {
-//       posts: json.data.projects,
+//       projects: json.data.posts
 //     },
 //   }
 // }
