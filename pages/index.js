@@ -19,7 +19,7 @@ export default function Home({ posts, projects }) {
         <Hero />
       </section>
 
-      <section id='about' className='mb-10'>
+      <section id='about' className='mb-32'>
         <About />
       </section>
 
