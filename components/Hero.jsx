@@ -19,10 +19,10 @@ function Hero() {
             <h2 className='text-4xl md:text-7xl text-[#F7AB0A] md:tracking-[15px] uppercase font-mono tracking-wide md:font-thin'>Daniel Larkin</h2>
             <div className="pt-5">
                 <div className=''>
-                    <button className='px-3 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all mr-1 hover:bg-black hover:text-white'><a href="#about">About</a></button>
-                    <button className='px-3 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all ml-1 mr-1 hover:bg-black hover:text-white'><a href="#skills">Skills</a></button>
-                    <button className='px-3 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all ml-1 mr-1 hover:bg-black hover:text-white'><a href="#projects">Projects</a></button>
-                    <button className='px-3 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all ml-1 hover:bg-black hover:text-white'><a href="#contact">Contact</a></button>
+                    <button className='px-3 py-2 border border-[#242424] rounded-full uppercase text-xs align-middle tracking-widest text-gray-500 transition-all mr-1 hover:bg-black hover:text-white'><a href="#about">About</a></button>
+                    <button className='px-3 py-2 border border-[#242424] rounded-full uppercase text-xs align-middle tracking-widest text-gray-500 transition-all ml-1 mr-1 hover:bg-black hover:text-white'><a href="#skills">Skills</a></button>
+                    <button className='px-3 py-2 border border-[#242424] rounded-full uppercase text-xs align-middle tracking-widest text-gray-500 transition-all ml-1 mr-1 hover:bg-black hover:text-white'><a href="#projects">Projects</a></button>
+                    <button className='px-3 py-2 border border-[#242424] rounded-full uppercase text-xs align-middle tracking-widest text-gray-500 transition-all ml-1 hover:bg-black hover:text-white'><a href="#contact">Contact</a></button>
                 </div>
             </div>
         </div>

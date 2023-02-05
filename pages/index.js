@@ -19,11 +19,11 @@ export default function Home({ posts, projects }) {
         <Hero />
       </section>
 
-      <section id='about' className=''>
+      <section id='about' className='mb-10'>
         <About />
       </section>
 
-      <section id='skills' className='mb-12'>
+      <section id='skills' className='mb-10'>
         <Skills />
       </section>
 
