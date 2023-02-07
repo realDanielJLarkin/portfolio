@@ -31,9 +31,9 @@ export default function Home({ posts, projects }) {
         <Projects projects={posts} posts={projects} />
       </section>
 
-      <section id='contact'>
+      {/* <section id='contact'>
         <Contact />
-      </section>
+      </section> */}
 
 
     </div>
