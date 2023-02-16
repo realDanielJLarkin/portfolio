@@ -3,6 +3,7 @@
 import informedViewerImage from '../public/informedviewer.png'
 import stepOutAndGo from '../public/stepoutgo.png'
 import portfolio from '../public/portfolio.png'
+import multistep from '../public/multistep.png'
 
 const projects = [
     {
@@ -26,7 +27,15 @@ const projects = [
         description: 'My porfolio website (which you are currently viewing) is a headless Wordpress site built with NextJS. This option is great if you want the familiarity of Wordpress CMS but want a completely custom layout.',
         image: portfolio,
         link: 'https://classy-rugelach-71b903.netlify.app/',
-        tags: ['NextJS', 'React', 'Fullstack', 'Headless Wordpress', 'GraphQL'],
+        tags: ['NextJS', 'TailwindCSS', 'Fullstack', 'Headless Wordpress', 'GraphQL'],
+        id: 3
+    },
+    {
+        title: 'Multistep subscritption App',
+        description: 'This is a project from Frontend Mentor. It is a mutistep subscription app built with NextJS featuring form validation, global state management, and CSS modules.',
+        image: multistep,
+        link: 'https://multistep-subscription-app.vercel.app/',
+        tags: ['NextJS', 'Vanilla CSS', 'State Management', 'Form Validation', 'Frontend'],
         id: 3
     },
 
