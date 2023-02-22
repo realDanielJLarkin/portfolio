@@ -4,6 +4,7 @@ import informedViewerImage from '../public/informedviewer.png'
 import stepOutAndGo from '../public/stepoutgo.png'
 import portfolio from '../public/portfolio.png'
 import multistep from '../public/multistep.png'
+import tech from '../public/fem-tech.png'
 
 const projects = [
     {
@@ -36,7 +37,15 @@ const projects = [
         image: multistep,
         link: 'https://multistep-subscription-app.vercel.app/',
         tags: ['NextJS', 'Vanilla CSS', 'State Management', 'Form Validation', 'Frontend'],
-        id: 3
+        id: 4
+    },
+    {
+        title: 'Tech Blog Home Page',
+        description: 'This is a project from Frontend Mentor. It is frontend only and features responsive design with mobile navigation.',
+        image: tech,
+        link: 'https://frontend-mentor-news-page-phi.vercel.app/',
+        tags: ['NextJS', 'TailwindCSS', 'Javascript', 'Kinda boring but kinda cool too', 'Frontend'],
+        id: 5
     },
 
 ]
