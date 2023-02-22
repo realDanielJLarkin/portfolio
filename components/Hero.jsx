@@ -22,7 +22,7 @@ function Hero() {
                     <button className='px-3 py-2 border border-[#242424] rounded-full uppercase text-xs align-middle tracking-widest text-gray-500 transition-all mr-1 hover:bg-black hover:text-white'><a href="#about">About</a></button>
                     <button className='px-3 py-2 border border-[#242424] rounded-full uppercase text-xs align-middle tracking-widest text-gray-500 transition-all ml-1 mr-1 hover:bg-black hover:text-white'><a href="#skills">Skills</a></button>
                     <button className='px-3 py-2 border border-[#242424] rounded-full uppercase text-xs align-middle tracking-widest text-gray-500 transition-all ml-1 mr-1 hover:bg-black hover:text-white'><a href="#projects">Projects</a></button>
-                    <button className='px-3 py-2 border border-[#242424] rounded-full uppercase text-xs align-middle tracking-widest text-gray-500 transition-all ml-1 hover:bg-black hover:text-white'><a href="#contact">Contact</a></button>
+                    {/* <button className='px-3 py-2 border border-[#242424] rounded-full uppercase text-xs align-middle tracking-widest text-gray-500 transition-all ml-1 hover:bg-black hover:text-white'><a href="#contact">Contact</a></button> */}
                 </div>
             </div>
         </div>
