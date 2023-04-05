@@ -5,7 +5,7 @@ function Hero() {
 
     const [text, count] = useTypewriter({
         words: [
-            'Fullstack Software Engineer.',
+            'Fullstack Software Developer.',
             'Working in HTML/CSS & JS...',
             'React, Node, Wordpress, & more',
         ],

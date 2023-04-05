@@ -13,7 +13,7 @@ export default function Home({ posts, projects }) {
   return (
     <div className='bg-white overflow-auto'>
 
-      {/* <Header /> */}
+      <Header />
 
       <section id='hero' className=''>
         <Hero />

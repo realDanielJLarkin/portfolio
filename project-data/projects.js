@@ -5,6 +5,7 @@ import stepOutAndGo from '../public/stepoutgo.png'
 import portfolio from '../public/portfolio.png'
 import multistep from '../public/multistep.png'
 import tech from '../public/fem-tech.png'
+import chirp from '../public/chirp.png'
 
 const projects = [
     {
@@ -46,6 +47,14 @@ const projects = [
         link: 'https://frontend-mentor-news-page-phi.vercel.app/',
         tags: ['NextJS', 'TailwindCSS', 'Javascript', 'Kinda boring but kinda cool too', 'Frontend'],
         id: 5
+    },
+    {
+        title: 'Chirp - Emoji Twitter Clone',
+        description: 'Twitter, but for emojis. Built with NextJS using tyepscript, Prisma, Clerk, and tRPC.',
+        image: chirp,
+        link: 'https://chirp-emoji-twitter.vercel.app/',
+        tags: ['NextJS', 'TailwindCSS', 'Fullstack', 'Typescript', 'User Auth'],
+        id: 6
     },
 
 ]

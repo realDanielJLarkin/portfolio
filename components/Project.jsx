@@ -14,7 +14,7 @@ function Project({ project }) {
 
                 <div className='card-action justify-start flex gap-3 flex-wrap items-start'>
                     {project.tags.map(tag => (
-                        <div key={tag} className="badge bg-green-700 border-n">{tag}</div>
+                        <div key={tag} className="badge bg-green-700 border-none">{tag}</div>
                     ))}
                 </div>
                 <div className="card-actions justify-end">
