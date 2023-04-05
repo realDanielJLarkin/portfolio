@@ -50,7 +50,7 @@ const projects = [
     },
     {
         title: 'Chirp - Emoji Twitter Clone',
-        description: 'Twitter, but for emojis. Built with NextJS using tyepscript, Prisma, Clerk, and tRPC.',
+        description: 'Twitter, but for emojis. Built with NextJS using Typescript, Prisma, Clerk, and tRPC.',
         image: chirp,
         link: 'https://chirp-emoji-twitter.vercel.app/',
         tags: ['NextJS', 'TailwindCSS', 'Fullstack', 'Typescript', 'User Auth'],
